@@ -1,9 +1,11 @@
 "use strict";
 
+// Variable
 let counter = document.querySelector(".counter");
 let buttons = document.querySelectorAll("button");
 let count = 0;
 
+// Function, add click event on button
 buttons.forEach( function(button) {
     button.addEventListener("click", function (e) {
 
@@ -24,6 +26,8 @@ buttons.forEach( function(button) {
 
         };
 
+        //===counter number color 
+        
         if (count < 0) {
             counter.style.color = "red";
           
