@@ -9,6 +9,7 @@ let count = 0;
 buttons.forEach( function(button) {
     button.addEventListener("click", function (e) {
         let text = e.currentTarget.classList;
+        
         if (text.contains('decrease')){
             count --;
             counter.textContent = count;
