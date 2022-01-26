@@ -6,6 +6,9 @@
   padding: 0px;
   font-family: "Poppins", sans-serif;
 }
+
+/* Add style  */
+
 body {
   background: linear-gradient(45deg, #7284ff, #54ffe0);
 }
@@ -37,4 +40,9 @@ main {
   font-weight: 500;
   cursor: pointer;
   text-transform: uppercase;
+  transition: 0.4s;
+}
+.my_button button:hover {
+  color: white;
+  background-color: black;
 }

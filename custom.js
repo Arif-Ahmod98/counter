@@ -8,11 +8,12 @@ let count = 0;
 // Function, add click event on button
 buttons.forEach( function(button) {
     button.addEventListener("click", function (e) {
-
         let text = e.currentTarget.classList;
         if (text.contains('decrease')){
             count --;
             counter.textContent = count;
+
+            
         }
         else if ( text.contains('increase') ) {
 
@@ -27,7 +28,7 @@ buttons.forEach( function(button) {
         };
 
         //===counter number color 
-        
+
         if (count < 0) {
             counter.style.color = "red";
           
